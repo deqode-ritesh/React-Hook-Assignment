@@ -1,12 +1,14 @@
-import React from 'react';
+import React,{useEffect, useState,useRef,useCallback,useMemo,useReducer} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReminderApp from './Componenet/ReminderApp';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ReminderApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
