@@ -18,6 +18,7 @@ function DateTimePicker(props){
                     placeholder={props.placeholder}
                     className="form-control"
             />
+            <p>{props.error?props.error:''}</p>
         </div>
     );
 }
